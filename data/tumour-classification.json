@@ -1,0 +1,77 @@
+{
+  "Document Name": "Cancer Classification",
+  "Tumor Types": [
+    {
+      "name": "Epithelial Tumours",
+      "Origin": [
+        {
+          "name": "Adipose Tissue",
+          "benign": "Lipoma",
+          "malignant": "Liposarcoma"
+        },
+        {
+          "name": "Adult Fibrous Tissue",
+          "benign": "Fibroma",
+          "malignant": "Liposarcoma"
+        },
+        {
+          "name": "Embryonic Fibrous Tissue",
+          "benign": "Myxoma",
+          "malignant": "Myxosarcoma"
+        },
+        {
+          "name": "Cartilage",
+          "benign": "Chondroma",
+          "malignant": "Ostosarcoma"
+        }
+      ]
+    },
+    {
+      "name": "Non Epithelial(Mesenchymal) Tumours",
+      "Origin": [
+        {
+          "name": "Mesothelium",
+          "benign": "--",
+          "malignant": "Mesothelioma"
+        },
+        {
+          "name": "Blood Vessels",
+          "benign": "Haemangioma",
+          "malignant": "Angiosarcoma"
+        },
+        {
+          "name": "Lymph Vessels",
+          "benign": "Lymphangioma",
+          "malignant": "Lymphangiosarcoma"
+        },
+        {
+          "name": "Haematopoietic cells",
+          "benign": "--",
+          "malignant": "Leukemias"
+        }
+      ]
+    },
+    {
+      "name": "Mixed Tumours",
+      "Origin": [
+        {
+          "name": "Salivary Glands",
+          "benign": "Pleomorphic Adenoma",
+          "malignant": "Malignant Mixed Salivary Tumours"
+        }
+      ]
+    },
+    {
+      "name": "Tumours Of More Than One Germ Cell Layer",
+      "Origin": [
+        {
+          "name": "Totipotent Cells in Gonads or in Embryonal Rests",
+          "benign": "Mature Teratoma",
+          "malignant": "Immature Teratoma"
+        }
+      ]
+    }
+  ],
+
+  "Ref": "https://www.slideshare.net/ParasuramanParasuraman/neoplasia-1-27391892"
+}

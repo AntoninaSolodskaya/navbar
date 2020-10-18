@@ -1,0 +1,30 @@
+{
+  "Document Name": "Cancer Classification",
+  "Tumor Types": [
+    {
+      "name": "Epithelial Tumours",
+      "Origin": [
+        {
+          "name": "Adipose Tissue",
+          "benign": "Lipoma",
+          "malignant": "Liposarcoma"
+        },
+        {
+          "name": "Adult Fibrous Tissue",
+          "benign": "Fibroma",
+          "malignant": "Liposarcoma"
+        }
+      ]
+    },
+    {
+      "name": "Tumours Of More Than One Germ Cell Layer",
+      "Origin": [
+        {
+          "Tumour Name": "Totipotent Cells in Gonads or in Embryonal Rests",
+          "benign": "Mature Teratoma",
+          "malignant": "Immature Teratoma"
+        }
+      ]
+    }
+  ]
+}
